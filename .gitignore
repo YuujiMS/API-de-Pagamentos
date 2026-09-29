@@ -1,0 +1,17 @@
+# Ambiente Virtual
+venv/
+
+# Banco de dados e instâncias locais
+instance/
+*.db
+
+# Cache do Python e Pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Imagens de QR Code geradas durante testes
+static/img/qr_code_payment_*.png
+
+# Variáveis de ambiente
+.env
